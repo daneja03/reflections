@@ -1,0 +1,5 @@
+chanHow did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+Diff clearly indicates the line numbers which are different in both the files. It also shows the contents on that line number.
+no+ and - signs in front of the line numbers helps you to recognize whether there has been new additions or deletions from that line.
+If the files are large it only shows those line numbers which are different in two different versions.
