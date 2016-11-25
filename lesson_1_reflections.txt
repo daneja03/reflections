@@ -1,0 +1,55 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+Diff clearly indicates the line numbers which are different in both the files. It also shows the contents on that line number.
++ and - signs in front of the line numbers helps you to recognize whether there has been new additions or deletions from that line.
+If the files are large it only shows those line numbers which are different in two different versions.
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+I can go and check my changes anytime, its easy to track your what all changes has been made to the file and who made those changes and when.
+I can also restore my file to some earlier point in time. I can compare different versions of file in order to find a bug or an error.
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+You don't have save the multiple versions of the same file each time either automatically or manually. Instead you can just commit your changes at any point of time
+when you think you have made considerable amount and change and change is the logical piece and deserves to be saved. 
+Pros:
+	- You will only chose to commit when you wish to or when you have made a logical change. If you chose to save automatically, then it may create numerous versions of the same file
+		which you may not need or will create more confusion and difficult to track.
+	- Easy to track with a commit message and author who made the changes.
+	- You don't need to be online in order to track your history of changes.
+Cons:
+	- Don't forget to commit your change when you're done with a logical change.
+	- You can accidently checkout to some commit in past, then it may be tough for you to get to the latest commit.
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+Because in development, a logical may constite of multiple files rather than a single file. Like if you change a method definition in java in a file, then
+you will also refactor all its references where it is being used in other files.
+
+
+How can you use the commands git log and git diff to view the history of files?
+
+Git log displays all the commit history of that repository in descending order of time i.e. most recent commits will be on top followed by the later commits.
+Git diff shows the difference between the last commit and currently uncommited changes when invoked without any arguments.
+Git diff can also be invoked by giving two commit ids to show the diff between those commits, changes between those set of files.
+
+How might using version control make you more confident to make changes that could break something?
+
+If something broken which was working earlier then i can view my recent changes and see if any of my recent changes broke the code. So its easier to track change history.
+Also i can checkout to some earlier commit where it was working correctly and deliver instatly to my clients and then make the fix at some later point in time.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+Trying out different commands, setting up my own repository and play around with it.
+
+What happens when you initialize a repository? Why do you need to do it?
+
+Initializing a repository means making it a git repository where all the changes made on to the exisitng files or any new files added will be tracked. 
+A history will be maintained of all your changes. You can track any change after initializeing a repository to a git repository.
+
+How is the staging area different from the working direcoty and the repositry? What value do you think it offers?
+
+A file in a staging means it is ready to be committed or it can be committed. Working directory means a file which is untracked by git, and in order to track that, 
+you will need to add that to the staging area first. There can be many files that you don't want to check in or to be a part of the repository so would like them 
+to be present in the directory but not tracked by the repository.
