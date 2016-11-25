@@ -1,0 +1,4 @@
+How can you use the staging area to make sure you have one commit per logical change?
+
+The only changes you can commit are those which are in staging area. So you can add only those files to the staging are that constitutes the logical change you want to commit.
+You can further add other files to the staging area after committed your previous changes in the staging ares. That will make another commit.
