@@ -2,3 +2,8 @@ How can you use the staging area to make sure you have one commit per logical ch
 
 The only changes you can commit are those which are in staging area. So you can add only those files to the staging are that constitutes the logical change you want to commit.
 You can further add other files to the staging area after committed your previous changes in the staging ares. That will make another commit.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+Doing experiments with code, trying a different approach to see if it works out or not. To keed the stable working changes intact irrespective of the new changes.
+When you're not sure what impact could your new changes make to the working code.
