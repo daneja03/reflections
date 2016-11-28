@@ -4,3 +4,11 @@ Projects are carried out by teams and each team can have multiple number of pers
 Also teams may geographically apart, working from different locations. So a remote repository works as a central place where
 each team member can add or modify contents and then other team mates can pull them on their local machines. Other benefit 
 is that all your changes remains on cloud rather than any local machine, so they are always available.
+
+Describe the differences between forks, clones and branches. When would you use one instead of another?
+
+Fork : When you are copying the repository within github that you will clone further to your local machine and then experiment with it and communicate with local and github copy.
+
+Clone : Clone is creating copy of repository on your local machine from github. Generally github will contain the stable production level of code. You will only push the tested and verified changes to that repo.
+
+Branches : Creating a new label or chain of commits for a new feature or experiment.
