@@ -4,3 +4,10 @@ Projects are carried out by teams and each team can have multiple number of pers
 Also teams may geographically apart, working from different locations. So a remote repository works as a central place where
 each team member can add or modify contents and then other team mates can pull them on their local machines. Other benefit 
 is that all your changes remains on cloud rather than any local machine, so they are always available.
+
+
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+
+Hmm...Because i may be in between of some changes and the downloaded changes may impact my local behaviour.
+Also there could be some merge conflicts that are be resolved manually. There can a big number of people/teammates
+working on the same set of files, so there are high chances that things will break if one sets up the automatic updates.
