@@ -11,3 +11,11 @@ Why might you want to always pull changes manually rather than having Git automa
 Hmm...Because i may be in between of some changes and the downloaded changes may impact my local behaviour.
 Also there could be some merge conflicts that are be resolved manually. There can a big number of people/teammates
 working on the same set of files, so there are high chances that things will break if one sets up the automatic updates.
+
+Describe the differences between forks, clones and branches. When would you use one instead of another?
+
+Fork : When you are copying the repository within github that you will clone further to your local machine and then experiment with it and communicate with local and github copy.
+
+Clone : Clone is creating copy of repository on your local machine from github. Generally github will contain the stable production level of code. You will only push the tested and verified changes to that repo.
+
+Branches : Creating a new label or chain of commits for a new feature or experiment.
