@@ -25,3 +25,9 @@ What is the benefit of having a copy of the last known state of the remote store
 
 You can work offline after updating your local copies of the remote. Also git log and git status works in offline mode, that compares your commits with the local copies of remote.
 git fetch allows you to update your local copies of remote. You can continue to work on your local in offline mode as well and then sync with remote when you have the internet access.
+
+How would you collaborate without Git or GitHub? What would be easier, and what would be harder?
+
+If I were to collaborate without Git and GitHub, i would have used the Google Docs on sharing mode, where my team member can edit and add new changes.
+Easier part would be that all my changes remain at one place and online availabe at any time.
+Tough is many thing..don't even want to waste time writing answer to this question.
