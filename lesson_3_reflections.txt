@@ -31,3 +31,12 @@ How would you collaborate without Git or GitHub? What would be easier, and what 
 If I were to collaborate without Git and GitHub, i would have used the Google Docs on sharing mode, where my team member can edit and add new changes.
 Easier part would be that all my changes remain at one place and online availabe at any time.
 Tough is many thing..don't even want to waste time writing answer to this question.
+
+
+When would you want to make changes in a separte branch rather than directly in master? What benefits does each approach have?
+
+When i am working on a feature which is part of an experiment and not sure whether to incorporate those changes into the production code. So i will create a separte branch and add all 
+code related to that feature in new branch only.
+master is considered the stable production level branch, so only way the trusted and verified changes will be merged into master that too throught the pull request process. 
+For a product there may be multiple teams and each team may be working on different features and with in that team also, each individual might be working on different piece of code.So its 
+good to have a hierarchy of branches.
