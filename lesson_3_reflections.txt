@@ -19,3 +19,9 @@ Fork : When you are copying the repository within github that you will clone fur
 Clone : Clone is creating copy of repository on your local machine from github. Generally github will contain the stable production level of code. You will only push the tested and verified changes to that repo.
 
 Branches : Creating a new label or chain of commits for a new feature or experiment.
+
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+You can work offline after updating your local copies of the remote. Also git log and git status works in offline mode, that compares your commits with the local copies of remote.
+git fetch allows you to update your local copies of remote. You can continue to work on your local in offline mode as well and then sync with remote when you have the internet access.
